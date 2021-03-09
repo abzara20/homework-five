@@ -7,7 +7,15 @@
       h1{
           font-family: Proxima;
           font-size: $proxima-title;
+          font-weight: lighter;
       }
+
+      hr{
+          width: 171px;
+          height: 3px;
+          background-color: black;
+      }
+
       p{
         font-family: Gill;
         font-size: 16px;
@@ -21,6 +29,7 @@
         h3{
             font-family: Proxima;
             font-size: 40px;
+            font-weight: lighter;
         }
 
         p{
@@ -28,6 +37,13 @@
             font-size: 16px;
             }
             
+         hr{
+             margin-top: -10px;
+            width: 255px;
+            height: 3px;
+            background-color: black;
+        }
+
         .client{
             display: flex;
             max-width: 676px;
@@ -71,6 +87,11 @@
                     position: absolute;
                     right: 0;
                     bottom: 0;
+                    p{
+                        font-family: Proxima;
+                        font-size: 20px;
+                        color: $site-blue;
+                    }
                 }
             }
         }

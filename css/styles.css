@@ -299,6 +299,12 @@ footer .media {
   justify-content: space-evenly;
 }
 
+@media only screen and (max-width: 980px) {
+  footer {
+    justify-content: center;
+    width: 600px;
+  }
+}
 .about {
   max-width: 980px;
   margin: 0 auto;
@@ -309,6 +315,12 @@ footer .media {
 .about .about-top-section h1 {
   font-family: Proxima;
   font-size: 60px;
+  font-weight: lighter;
+}
+.about .about-top-section hr {
+  width: 171px;
+  height: 3px;
+  background-color: black;
 }
 .about .about-top-section p {
   font-family: Gill;
@@ -321,10 +333,17 @@ footer .media {
 .about .about-bottom-section h3 {
   font-family: Proxima;
   font-size: 40px;
+  font-weight: lighter;
 }
 .about .about-bottom-section p {
   font-family: Gill-Italic;
   font-size: 16px;
+}
+.about .about-bottom-section hr {
+  margin-top: -10px;
+  width: 255px;
+  height: 3px;
+  background-color: black;
 }
 .about .about-bottom-section .client {
   display: flex;
@@ -362,6 +381,11 @@ footer .media {
   position: absolute;
   right: 0;
   bottom: 0;
+}
+.about .about-bottom-section .client .client-quote .client-name p {
+  font-family: Proxima;
+  font-size: 20px;
+  color: #79ADDC;
 }
 
 @media only screen and (max-width: 600px) {

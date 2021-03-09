@@ -1,0 +1,51 @@
+.about{
+    max-width: 980px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    .about-top-section{
+      
+    }
+    .about-bottom-section{
+        margin-top: 200px;
+        // display: flex;
+        // flex-direction: column;
+        .client{
+            display: flex;
+            max-width: 676px;
+            min-height: 150px;
+            
+            .client-image{
+                width: 260px;
+                height: 150px;
+                background-color: bisque;
+                img{
+                    width: 100%;
+                }
+            }
+            
+            .client-quote{
+                position: relative;
+                // background-color: blue;
+                min-height: 50px;
+                width: 100%;
+                padding-left: 25px;
+
+                // p:last-of-type {
+                //     margin-bottom: 55px;
+                // }
+
+                .client-name{
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .about{
+        padding: 10px;
+    }
+}

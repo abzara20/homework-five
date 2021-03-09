@@ -8,8 +8,8 @@ nav{
     justify-content: space-between;
 
     .logo{
-        width: 92px;
-        height: 42px;
+        max-width: 92px;
+        max-height: 42px;
         // background-color: cyan;
         // background-image: url(../images/logo/logo-white.png);
         // background-size: cover;
@@ -56,14 +56,12 @@ nav.black{
     border-bottom: 2px solid black;
 }
 
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 980px) {
     nav{
         justify-content: center;
-        .logo{
-            visibility: hidden;
-        }
-        .links{
-            margin-left: -92px;
-        }
+        width: 600px;
+        // .links{
+        //     margin-left: -92px;
+        // }
     }
  }
